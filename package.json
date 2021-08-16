@@ -1,7 +1,7 @@
 {
   "name": "beat-cors-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "test cors app",
   "main": "index.js",
   "scripts": {
     "start": "node ./"
@@ -12,5 +12,17 @@
   "dependencies": {
     "express": "^4.16.4",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FathymTesterA/TestCors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FathymTesterA/TestCors/issues"
+  },
+  "homepage": "https://github.com/FathymTesterA/TestCors#readme"
+
 }
