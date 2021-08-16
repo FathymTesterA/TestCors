@@ -4,6 +4,7 @@
   "description": "test cors app",
   "main": "index.js",
   "scripts": {
+    "build": "rimraf build && mkdir build && cp index.js build/index.js -f",
     "start": "node ./"
   },
   "keywords": [],
